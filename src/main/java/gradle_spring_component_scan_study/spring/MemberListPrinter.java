@@ -1,4 +1,4 @@
-package spring;
+package gradle_spring_component_scan_study.spring;
 
 import java.util.Collection;
 

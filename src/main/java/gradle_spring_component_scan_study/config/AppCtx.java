@@ -1,13 +1,13 @@
-package config;
+package gradle_spring_component_scan_study.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import spring.MemberPrinter;
-import spring.MemberSummaryPrinter;
-import spring.VersionPrinter;
+import gradle_spring_component_scan_study.spring.MemberPrinter;
+import gradle_spring_component_scan_study.spring.MemberSummaryPrinter;
+import gradle_spring_component_scan_study.spring.VersionPrinter;
 
 @Configuration
 @ComponentScan(basePackages = { "spring" })
